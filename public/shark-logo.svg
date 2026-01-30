@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sharkGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="256" cy="256" r="256" fill="url(#sharkGradient)"/>
+  
+  <!-- Shark Body -->
+  <path d="M100 280 Q180 200 320 230 Q420 250 450 300 Q400 350 320 340 Q200 330 150 350 Q120 320 100 280 Z" 
+        fill="#ffffff" opacity="0.9"/>
+  
+  <!-- Shark Fin -->
+  <path d="M200 180 Q220 160 250 200 Q240 220 220 210 Z" 
+        fill="#ffffff" opacity="0.8"/>
+  
+  <!-- Eye -->
+  <circle cx="320" cy="260" r="8" fill="#1e3a8a"/>
+  
+  <!-- BJJ Text -->
+  <text x="256" y="420" text-anchor="middle" font-family="Arial Black, sans-serif" 
+        font-size="48" font-weight="bold" fill="#ffffff">BJJ</text>
+  
+  <!-- Shark Text -->
+  <text x="256" y="120" text-anchor="middle" font-family="Arial Black, sans-serif" 
+        font-size="32" font-weight="bold" fill="#ffffff" opacity="0.8">SHARK</text>
+</svg>

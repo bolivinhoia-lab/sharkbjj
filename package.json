@@ -1,0 +1,51 @@
+{
+  "name": "sharkbjj",
+  "version": "1.0.0",
+  "description": "Complete BJJ Academy Management PWA System",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/auth-helpers-nextjs": "0.10.0",
+    "@supabase/supabase-js": "2.48.0",
+    "@types/node": "20.17.9",
+    "@types/react": "19.0.1",
+    "@types/react-dom": "19.0.1",
+    "autoprefixer": "10.4.20",
+    "class-variance-authority": "0.7.1",
+    "clsx": "2.1.1",
+    "framer-motion": "11.15.0",
+    "html5-qrcode": "2.3.8",
+    "lucide-react": "0.469.0",
+    "next": "^16.1.6",
+    "next-pwa": "5.6.0",
+    "postcss": "8.5.2",
+    "qrcode": "1.5.4",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "recharts": "2.15.0",
+    "tailwind-merge": "2.5.4",
+    "tailwindcss": "3.4.16",
+    "typescript": "5.7.2",
+    "zustand": "5.0.2"
+  },
+  "devDependencies": {
+    "@types/qrcode": "^1.5.6",
+    "eslint": "9.17.0",
+    "eslint-config-next": "15.1.6"
+  },
+  "keywords": [
+    "bjj",
+    "academy",
+    "management",
+    "pwa",
+    "qr-code",
+    "gamification"
+  ],
+  "author": "Rob Boliver",
+  "license": "MIT"
+}
